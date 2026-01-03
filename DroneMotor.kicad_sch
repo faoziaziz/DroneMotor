@@ -2,9 +2,349 @@
 	(version 20250114)
 	(generator "eeschema")
 	(generator_version "9.0")
-	(uuid e5d1c202-3f61-448b-ac9e-1ad40450f986)
+	(uuid "e5d1c202-3f61-448b-ac9e-1ad40450f986")
 	(paper "A4")
 	(lib_symbols)
+	(sheet
+		(at 196.85 115.57)
+		(size 39.37 27.94)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "3368bf75-d24b-4bd2-8f98-b9ae4c1f4768")
+		(property "Sheetname" "motor4"
+			(at 196.85 114.8584 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor4.kicad_sch"
+			(at 196.85 144.0946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneMotor"
+				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 102.87 54.61)
+		(size 82.55 72.39)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5dff363c-3a82-49ca-9e27-aad238a6c91e")
+		(property "Sheetname" "Controller"
+			(at 102.87 53.8984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "controller.kicad_sch"
+			(at 102.87 127.5846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "DRV_EN" input
+			(at 102.87 60.96 180)
+			(uuid "2f3032db-caeb-4a78-9a86-166002f1c75b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "DRV_RESET" input
+			(at 102.87 63.5 180)
+			(uuid "ac331d62-4a08-4c23-8763-6a28182d191e")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_BEMF_A" input
+			(at 102.87 66.04 180)
+			(uuid "4d7e0ef5-3bda-440f-b7a3-748d89d92ac0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_BEMF_B" input
+			(at 102.87 69.85 180)
+			(uuid "026dd94c-a329-4d93-a566-aec8ff19e272")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_BEMF_C" input
+			(at 102.87 74.93 180)
+			(uuid "17d92f24-c54d-4642-9ada-57bea535b7e3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_DRV_INT" input
+			(at 102.87 78.74 180)
+			(uuid "a2cc928c-1eae-4130-8b3a-d1f024f9a4ef")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_DRV_OC" input
+			(at 102.87 82.55 180)
+			(uuid "78f7bac0-758e-4fd7-b96a-86221f1b6be2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_INPUT" input
+			(at 102.87 85.09 180)
+			(uuid "73a95a1c-7cd7-42cf-84e2-0f2521ee5310")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_I_DCB" input
+			(at 102.87 91.44 180)
+			(uuid "2e1589cf-d579-4f2f-86db-e39200621b62")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_LED_1" input
+			(at 102.87 96.52 180)
+			(uuid "4477d3a7-8287-423a-9357-3932fa2350b0")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_PWM_A_HS" input
+			(at 102.87 102.87 180)
+			(uuid "b6caee75-371a-44e0-b813-fdc3ef9c8577")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_PWM_A_LS" input
+			(at 102.87 102.87 180)
+			(uuid "5bb2bfe3-0339-4e48-bafe-1681a0225f12")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "M1_PWM_B_HS" input
+			(at 102.87 109.22 180)
+			(uuid "ee988da3-bb83-4533-a1ed-7b57b59fe00a")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "DroneMotor"
+				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 199.39 45.72)
+		(size 55.88 31.75)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73a8a454-638b-4a32-bd47-04b42a4ccf29")
+		(property "Sheetname" "motor3"
+			(at 199.39 45.0084 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor3.kicad_sch"
+			(at 199.39 78.0546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneMotor"
+				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986"
+					(page "5")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 36.83 97.79)
+		(size 39.37 36.83)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9ab7035b-ea00-4ccf-8bd8-4744431d16a6")
+		(property "Sheetname" "motor2"
+			(at 36.83 97.0784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor2.kicad_sch"
+			(at 36.83 135.2046 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneMotor"
+				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 34.29 41.91)
+		(size 48.26 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "e24c3339-4e29-422d-b427-b46591acf1ad")
+		(property "Sheetname" "motor1"
+			(at 34.29 41.1984 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "motor1.kicad_sch"
+			(at 34.29 80.5946 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "DroneMotor"
+				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986"
+					(page "3")
+				)
+			)
+		)
+	)
 	(sheet_instances
 		(path "/"
 			(page "1")
