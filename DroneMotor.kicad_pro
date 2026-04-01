@@ -560,12 +560,66 @@
           "label": "Datasheet",
           "name": "Datasheet",
           "show": true
+        },
+        {
+          "group_by": false,
+          "label": "price",
+          "name": "price",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "lcsc_id",
+          "name": "lcsc_id",
+          "show": true
+        },
+        {
+          "group_by": false,
+          "label": "Description",
+          "name": "Description",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "#",
+          "name": "${ITEM_NUMBER}",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Pins",
+          "name": "Sim.Pins",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Device",
+          "name": "Sim.Device",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Library",
+          "name": "Sim.Library",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Sim.Name",
+          "name": "Sim.Name",
+          "show": false
+        },
+        {
+          "group_by": false,
+          "label": "Voltage Rating",
+          "name": "Voltage Rating",
+          "show": false
         }
       ],
       "filter_string": "",
       "group_symbols": true,
       "include_excluded_from_bom": true,
-      "name": "Default Editing",
+      "name": "",
       "sort_asc": true,
       "sort_field": "Reference"
     },
@@ -633,6 +687,18 @@
     [
       "3368bf75-d24b-4bd2-8f98-b9ae4c1f4768",
       "motor4"
+    ],
+    [
+      "bbfb7242-f095-4a18-988e-5660c88bd052",
+      "controllerpower"
+    ],
+    [
+      "a3a84b5e-6a22-4ec2-8b7c-f11000579756",
+      "controllerConfig"
+    ],
+    [
+      "7d63686d-d93a-4027-93fa-ecc457780d8a",
+      "controllerADC"
     ]
   ],
   "text_variables": {}

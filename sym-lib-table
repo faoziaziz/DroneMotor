@@ -7,4 +7,5 @@
   (lib (name "WE-LAN_7490220122")(type "KiCad")(uri "${KIPRJMOD}/lib/schematics/WE-LAN_7490220122.kicad_sym")(options "")(descr ""))
   (lib (name "droneUltimate")(type "KiCad")(uri "${KIPRJMOD}/lib/schematics/droneUltimate.kicad_sym")(options "")(descr ""))
   (lib (name "TMS320F2800132rhb")(type "KiCad")(uri "${KIPRJMOD}/lib/schematics/TMS320F2800132rhb.kicad_sym")(options "")(descr ""))
+  (lib (name "TMS320F28388D")(type "KiCad")(uri "${KIPRJMOD}/lib/schematics/TMS320F28388D.kicad_sym")(options "")(descr ""))
 )
