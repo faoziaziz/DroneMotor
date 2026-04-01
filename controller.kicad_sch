@@ -9551,7 +9551,7 @@
 			(uuid "e800534c-46d0-455a-a0bb-1a32357a31e8")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "#PWR042")
 					(unit 1)
@@ -10102,7 +10102,7 @@
 			(uuid "65d83b58-fb24-4eae-9dfa-c9128c8a973d")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "C1")
 					(unit 1)
@@ -10645,7 +10645,7 @@
 			(uuid "ea94ac6e-52b1-4d0d-bdc4-3ed18b0e1226")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "#PWR037")
 					(unit 1)
@@ -11184,7 +11184,7 @@
 			(uuid "c2734a04-5c98-4f53-93d5-42f4aeac199b")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "#PWR03")
 					(unit 1)
@@ -11455,7 +11455,7 @@
 			(uuid "95412527-18c1-4bcb-988b-2eb21861b5cf")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "D1")
 					(unit 1)
@@ -11521,7 +11521,7 @@
 			(uuid "b917decd-6919-4ae9-bae9-70490e76d5e8")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "#PWR01")
 					(unit 1)
@@ -12467,7 +12467,7 @@
 			(uuid "749a548f-8a8a-4a94-8de4-fc64dea4ee9d")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "R1")
 					(unit 1)
@@ -12738,7 +12738,7 @@
 			(uuid "169e0e21-2a99-42e0-ad52-835a6c212873")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "#PWR06")
 					(unit 1)
@@ -13077,7 +13077,7 @@
 			(uuid "32b38300-7402-422f-a52f-e40fba32d5cf")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "C15")
 					(unit 1)
@@ -13217,7 +13217,7 @@
 			(uuid "f85c1e34-26ed-4a0e-bcef-0838a2735a89")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "Y1")
 					(unit 1)
@@ -14446,7 +14446,7 @@
 			(uuid "e18028f2-103a-4698-a083-2d317fc59db0")
 		)
 		(instances
-			(project ""
+			(project "DroneMotor"
 				(path "/e5d1c202-3f61-448b-ac9e-1ad40450f986/5dff363c-3a82-49ca-9e27-aad238a6c91e"
 					(reference "U1")
 					(unit 1)
